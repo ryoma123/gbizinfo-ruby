@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://info.gbiz.go.jp/hojin/v1/hojin/updateInfo/certification?from=20210101&to=20210131
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - gBizINFO Ruby Client/0.1.0
+      X-Hojininfo-Api-Token:
+      - "<ACCESS_TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Mon, 13 Dec 2021 15:00:07 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - AWSALB=JmZU8Ly7Gv06yvWAlrj/cSPuOVy4Ohie0zNtt6yMsa9BzQw1FuLNGXDNnn3Ry+VQdKuU1t6w/XdFdlOTCtpxuM+0sZ4O3cbmWgQvyKwTGeYTy1Z7nhtv0H+I/utx;
+        Expires=Mon, 20 Dec 2021 15:00:07 GMT; Path=/
+      - AWSALBCORS=JmZU8Ly7Gv06yvWAlrj/cSPuOVy4Ohie0zNtt6yMsa9BzQw1FuLNGXDNnn3Ry+VQdKuU1t6w/XdFdlOTCtpxuM+0sZ4O3cbmWgQvyKwTGeYTy1Z7nhtv0H+I/utx;
+        Expires=Mon, 20 Dec 2021 15:00:07 GMT; Path=/; SameSite=None; Secure
+      Server:
+      - openresty
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpZCI6bnVsbCwiZXJyb3JzIjpudWxsLCJtZXNzYWdlIjoiMjAwIC0gT0suIiwidG90YWxDb3VudCI6IjIiLCJ0b3RhbFBhZ2UiOiIxIiwicGFnZU51bWJlciI6IjEiLCJob2ppbi1pbmZvcyI6W3siY29ycG9yYXRlX251bWJlciI6IjYyOTAwMDEwMDExMjAiLCJyZXByZXNlbnRhdGl2ZV9uYW1lIjoi5Luj6KGo5Y+W57eg5b2556S+6ZW344CA44CA5L2Q44CA6Jek44CA5bCa44CA5paHIiwicG9zdGFsX2NvZGUiOiI4MTUwMDgxIiwibG9jYXRpb24iOiLnpo/lsqHnnIznpo/lsqHluILljZfljLrpgqPjga7lt53vvJHkuIHnm67vvJLvvJPnlarvvJPvvJXlj7ciLCJuYW1lIjoi5qCq5byP5Lya56S+5Lmd6Zu75belIiwia2FuYSI6IuOBjeOCheOBhuOBp+OCk+OBk+OBhiIsInN0YXR1cyI6Ii0iLCJjYXBpdGFsX3N0b2NrIjoxMjU2MTAwMDAwMCwiZW1wbG95ZWVfbnVtYmVyIjo2MzUzLCJidXNpbmVzc19pdGVtcyI6WyLpm7vmsJfmqZ/morDlmajlhbfoo73pgKDmpa0iLCLmg4XloLHpgJrkv6HmqZ/morDlmajlhbfoo73pgKDmpa0iLCLjgZ3jga7ku5bjga7oo73pgKDmpa0iLCLmg4XloLHjgrXjg7zjg5Pjgrnmpa0iLCLlsILploDjgrXjg7zjg5Pjgrnmpa0iLCLjgZ3jga7ku5bjga7kuovmpa3jgrXjg7zjg5Pjgrnmpa0iLCLjgZ3jga7ku5bjga7jgrXjg7zjg5Pjgrnmpa0iXSwidXBkYXRlX2RhdGUiOiIyMDIwLTA0LTA3VDAwOjAwOjAwKzA5OjAwIiwiZGF0ZV9vZl9lc3RhYmxpc2htZW50IjoiMTk0NC0xMi0wMSIsImNlcnRpZmljYXRpb24iOlt7ImRhdGVfb2ZfYXBwcm92YWwiOiIyMDE5LTA1LTE1IiwidGl0bGUiOiLmjIflkI3lgZzmraLmjqrnva4iLCJ0YXJnZXQiOiLnq7blo7LlhaXmnK3lpqjlrrPlj4jjga/oq4flkIgiLCJjYXRlZ29yeSI6bnVsbCwiZW50ZXJwcmlzZV9zY2FsZSI6bnVsbCwiZXhwaXJhdGlvbl9kYXRlIjoiMjAxOS0wNy0xNCAwMDowMDowMC4wIiwiZ292ZXJubWVudF9kZXBhcnRtZW50cyI6IumYsuihm+ecgSJ9XX0seyJjb3Jwb3JhdGVfbnVtYmVyIjoiOTM3MDAwMTAwODgwNyIsInBvc3RhbF9jb2RlIjoiOTgwMDAxMSIsImxvY2F0aW9uIjoi5a6u5Z+O55yM5LuZ5Y+w5biC6Z2S6JGJ5Yy65LiK5p2J77yS5LiB55uu77yR55Wq77yR77yU5Y+3IiwibmFtZSI6IuOCu+ODq+OCs+ODm+ODvOODoOagquW8j+S8muekviIsImthbmEiOiLjgZvjgovjgZPjgbvjg7zjgoAiLCJzdGF0dXMiOiItIiwiZW1wbG95ZWVfbnVtYmVyIjoxNzgsImNvbXBhbnlfc2l6ZV9tYWxlIjoxNjgsImNvbXBhbnlfc2l6ZV9mZW1hbGUiOjgxLCJidXNpbmVzc19zdW1tYXJ5Ijoi44Kr44OK44OA6Ly45YWl5L2P5a6F5bu656+J6LKp5aOyXG7os4Posrjnianku7bnrqHnkIZcbuODquODleOCqeODvOODoOW3peS6iyIsImNvbXBhbnlfdXJsIjoiaHR0cDovL3NlbGNvaG9tZS5qcC8iLCJ1cGRhdGVfZGF0ZSI6IjIwMTktMDEtMTVUMDA6MDA6MDArMDk6MDAiLCJjZXJ0aWZpY2F0aW9uIjpbeyJkYXRlX29mX2FwcHJvdmFsIjoiMjAxOS0wNi0wNyIsInRpdGxlIjoi5oyH5ZCN5YGc5q2i5o6q572uIiwidGFyZ2V0Ijoi56u25aOy5YWl5pyt5aao5a6z5Y+I44Gv6KuH5ZCIIiwiY2F0ZWdvcnkiOm51bGwsImVudGVycHJpc2Vfc2NhbGUiOm51bGwsImV4cGlyYXRpb25fZGF0ZSI6IjIwMTktMDgtMDYgMDA6MDA6MDAuMCIsImdvdmVybm1lbnRfZGVwYXJ0bWVudHMiOiLpmLLooZvnnIEifV19XX0=
+  recorded_at: Mon, 13 Dec 2021 15:00:07 GMT
+recorded_with: VCR 6.0.0

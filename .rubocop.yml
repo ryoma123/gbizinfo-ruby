@@ -1,0 +1,23 @@
+AllCops:
+  TargetRubyVersion: 3.0
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*.rb
+    - '*.gemspec'
+
+Metrics/CyclomaticComplexity:
+  Exclude:
+    - lib/gbizinfo/api/error.rb
+
+Metrics/MethodLength:
+  Max: 20
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/ModuleFunction:
+  Enabled: false

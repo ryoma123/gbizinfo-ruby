@@ -1,0 +1,42 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://info.gbiz.go.jp/hojin/v1/hojin/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - gBizINFO Ruby Client/0.1.0
+      X-Hojininfo-Api-Token:
+      - "<ACCESS_TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 400
+      message: ''
+    headers:
+      Date:
+      - Mon, 13 Dec 2021 15:00:32 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - AWSALB=FWR1brgWwiU5Ac6ux947R6eeiCuPo8+CdklpBc0bLB0D6s/KzYu+JHlpqwxMlEmldS9621XT5KYBtQ/JespntpORh3IDDy5DnDB4xajBV5yY9UHdMs9FXyceYndF;
+        Expires=Mon, 20 Dec 2021 15:00:32 GMT; Path=/
+      - AWSALBCORS=FWR1brgWwiU5Ac6ux947R6eeiCuPo8+CdklpBc0bLB0D6s/KzYu+JHlpqwxMlEmldS9621XT5KYBtQ/JespntpORh3IDDy5DnDB4xajBV5yY9UHdMs9FXyceYndF;
+        Expires=Mon, 20 Dec 2021 15:00:32 GMT; Path=/; SameSite=None; Secure
+      Server:
+      - openresty
+    body:
+      encoding: UTF-8
+      string: '{"id":null,"message":"400 - Bad Request.","errors":[]}'
+  recorded_at: Mon, 13 Dec 2021 15:00:32 GMT
+recorded_with: VCR 6.0.0

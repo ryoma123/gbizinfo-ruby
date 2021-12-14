@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://info.gbiz.go.jp/hojin/v1/hojin/4000012090001/certification
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - gBizINFO Ruby Client/0.1.0
+      X-Hojininfo-Api-Token:
+      - "<ACCESS_TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Mon, 13 Dec 2021 15:00:06 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - AWSALB=6UTwgeOwMg0EMbhNq5OLp7mZGT/cYVKsDhxJM59s4Rec9l7RY/+DlB7H1x/bhUsiHHQHdsw50hLOQX0UV1Z/TYJJi83uJ800+V7gVVHJFWPB44P+VY5OdVAsxybd;
+        Expires=Mon, 20 Dec 2021 15:00:06 GMT; Path=/
+      - AWSALBCORS=6UTwgeOwMg0EMbhNq5OLp7mZGT/cYVKsDhxJM59s4Rec9l7RY/+DlB7H1x/bhUsiHHQHdsw50hLOQX0UV1Z/TYJJi83uJ800+V7gVVHJFWPB44P+VY5OdVAsxybd;
+        Expires=Mon, 20 Dec 2021 15:00:06 GMT; Path=/; SameSite=None; Secure
+      Server:
+      - openresty
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpZCI6IjQwMDAwMTIwOTAwMDEiLCJlcnJvcnMiOm51bGwsIm1lc3NhZ2UiOiIyMDAgLSBPSy4iLCJob2ppbi1pbmZvcyI6W3siY29ycG9yYXRlX251bWJlciI6IjQwMDAwMTIwOTAwMDEiLCJwb3N0YWxfY29kZSI6IjEwMDAwMTMiLCJsb2NhdGlvbiI6IuadseS6rOmDveWNg+S7o+eUsOWMuumcnuOBjOmWou+8keS4geebru+8k++8je+8kSIsIm5hbWUiOiLntYzmuIjnlKPmpa3nnIEiLCJrYW5hIjoi44GR44GE44GW44GE44GV44KT44GO44KH44GG44GX44KH44GGIiwibmFtZV9lbiI6Ik1pbmlzdHJ5IG9mIEVjb25vbXksIFRyYWRlIGFuZCBJbmR1c3RyeSIsInN0YXR1cyI6Ii0iLCJ1cGRhdGVfZGF0ZSI6IjIwMTgtMDQtMDJUMDA6MDA6MDArMDk6MDAiLCJjZXJ0aWZpY2F0aW9uIjpbXX1dfQ==
+  recorded_at: Mon, 13 Dec 2021 15:00:06 GMT
+recorded_with: VCR 6.0.0
