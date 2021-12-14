@@ -1,5 +1,7 @@
 # gBizINFO Ruby Client
 
+[![CI](https://github.com/ryoma123/gbizinfo-ruby/actions/workflows/ci.yml/badge.svg)](https://github.com/ryoma123/gbizinfo-ruby/actions/workflows/ci.yml)
+
 A Ruby client for gBizINFO APIs.
 
 ## Installation
@@ -46,7 +48,7 @@ adapter             | Optional HTTP adapter to use, defaults to `Faraday.default
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/gbizinfo-ruby.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ryoma123/gbizinfo-ruby.
 
 ## License
 
