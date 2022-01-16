@@ -5,7 +5,7 @@ module Gbizinfo
         #
         # Returns the basic information of a given corporate number.
         #
-        # @param [String] :corporate_number
+        # @param [String] corporate_number
         #   A corporate number.
         # @see https://info.gbiz.go.jp/hojin/swagger-ui.html
         def hojin(corporate_number:)
