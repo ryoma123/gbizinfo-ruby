@@ -1,6 +1,7 @@
 # gBizINFO Ruby Client
 
 [![CI](https://github.com/ryoma123/gbizinfo-ruby/actions/workflows/ci.yml/badge.svg)](https://github.com/ryoma123/gbizinfo-ruby/actions/workflows/ci.yml)
+[![Yard Docs](http://img.shields.io/badge/yard-docs-blue.svg)](https://ryoma123.github.io/gbizinfo-ruby)
 
 A Ruby client for gBizINFO APIs.
 
