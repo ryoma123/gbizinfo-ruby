@@ -1,6 +1,8 @@
 /.bundle/
+/.yardoc
 /vendor/bundle
 Gemfile.lock
 log
+pkg
 .env
 .rspec_status
